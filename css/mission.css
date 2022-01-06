@@ -190,10 +190,10 @@ header {
 /* Develop without limits styles */
 
 .develop {
-	background-image: url(../images/shapes/shape-1.png);
+	/* background-image: url(../images/shapes/shape-1.png);
 	background-repeat: no-repeat;
-	background-position: 12% 50%;
-	background-size: 300px;
+	background-position: 25% 50%;
+	background-size: 300px; */
 	margin-bottom: 10em;
 }
 
@@ -220,10 +220,11 @@ header {
 /* Know our Global Community  */
 
 .global-community {
-	background-image: url(../images/shapes/shape-1.png);
+	/* background-image: url(../images/shapes/shape-1.png);
 	background-repeat: no-repeat;
-	background-position: 90% 180%;
+	background-position: 75% 100%;
 	background-size: 300px;
+	padding: 100px; */
 	margin-bottom: 5em;
 }
 
@@ -249,16 +250,31 @@ header {
 
 /* corona application  */
 
+.corona-app {
+	background-image: url(../images/shapes/shape-3.png),
+		url(../images/shapes/shape-3.png), url(../images/shapes/shape-3.png);
+	background-repeat: no-repeat;
+	background-position: 29% 17%, 45% 57%, 28% 90%;
+	background-size: 200px, 160px, 180px;
+	padding: 100px;
+	margin-bottom: 5em;
+}
+
 .corona-app-section-title {
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	font-size: 48px;
 	line-height: 74px;
+	margin-bottom: 1em;
 }
 
 .corona-app-img img {
 	width: 100%;
 	/* height: 459px; */
+}
+
+.corona-app-text-area {
+	padding: 30px;
 }
 
 .corona-app-title {
@@ -326,10 +342,23 @@ header {
 	margin: 20px;
 }
 
+.contact-form input[type='text'],
+textarea {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
 /* footer styles  */
 footer {
 	background-color: #0b0d17;
 	color: #ffffff;
 	text-align: center;
 	padding: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.container {
+		width: 990px;
+		margin: 0 auto;
+	}
 }
