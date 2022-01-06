@@ -59,6 +59,10 @@ body {
 	background-color: #ff5959;
 }
 
+.generic-btn:hover {
+	background-color: #ffad5a;
+}
+
 .half-width {
 	width: 50%;
 }
